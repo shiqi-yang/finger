@@ -1,9 +1,12 @@
-class App {
-    private name: string = "app";
+import EventEmitter from "./core/event";
 
-    getName():string {
-	return this.name;
-    }
+
+class App {
+  private name: string = "app";
+
+  getName():string {
+    return this.name;
+  }
 };
 
 const app = new App();
